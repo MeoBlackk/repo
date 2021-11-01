@@ -1,0 +1,322 @@
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px;
+    color: transparent;
+    background: #555;
+    background-size: 1000px 100%;
+    -webkit-animation: bg 35s linear infinite;
+    animation: bg 35s linear infinite;
+    -webkit-background-clip: text;
+    background-clip: text;
+    line-height: 1;
+    border-bottom-right-radius: 50px;
+
+}
+
+header {
+    background: #555;
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.25);
+}
+.centerqc {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mgright {
+    padding-right: 10px;
+    }
+.chip {
+    background-color: #000;
+}
+.layout-dark .app-card-2 {
+    text-align: left;
+    margin: 16
+px
+;
+    margin-top: 0
+px
+;
+    max-width: 375
+px
+;
+    opacity: 0.68;
+    background: #222426;
+    box-shadow: 0 5px 14px 0 rgb(0 0 0 / 22%);
+    border-radius: 15
+px
+;
+    height: auto;
+    display: block;
+    width: 100%;
+}
+.app-card-2 {
+    text-align: left;
+    margin: 16
+px
+;
+    margin-top: 0
+px
+;
+    margin-right: 16
+px
+;
+    margin-bottom: 16
+px
+;
+    margin-left: 16
+px
+;
+    margin-top: 0
+px
+;
+    max-width: 375
+px
+;
+    opacity: 0.68;
+    background: #fff;
+    box-shadow: 0 5px 14px 0 rgb(0 0 0 / 22%);
+    border-radius: 15
+px
+;
+    border-top-left-radius: 15
+px
+;
+    border-top-right-radius: 15
+px
+;
+    border-bottom-right-radius: 15
+px
+;
+    border-bottom-left-radius: 15
+px
+;
+    height: auto;
+    display: block;
+    width: 100%;
+}
+.chip {
+    font-size: 12px;
+    color: #959595;
+    background: #101010;
+    height: 25px;
+    border-radius: 5px;
+    padding: 0 7px;
+}
+.chip, .chip-media {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.chip {
+    font-weight: 400;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin: 2px 0;
+}
+.bg-color-green {
+    background-color: #4cd964!important;
+        padding-top:2px
+}
+.bg-color-blue {
+    background-color: #34aadc!important;
+        padding-top:2px
+}
+.chip-media {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    color: #555;
+    font-size: 12px;
+    box-sizing: border-box;
+    margin-left: -10px;
+}
+.chip-media+.chip-label {
+    margin-left: 4px;
+
+}
+.chip-label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    min-width: 0;
+}
+#myInput {
+  background-image: url('/images/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+
+}
+.timkiem {
+    background: #555;
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+}
+.iostitle {
+    border: 1px solid #555;
+    border-radius: 10px;
+    padding: 5px;
+}
+.imgbeta {
+    border-radius: 10px;
+    width: 70px;
+}
+.titlebeta {
+    height: 47px!important;
+    -webkit-line-clamp: 2!important;
+    color: #555!important;
+    font-size: 18px!important;
+    line-height: 1.4!important;
+}
+.betaframe {
+    position: relative;
+    height: 205px!important;
+    color: #555!important;
+    text-align: center!important;
+}
+.titlesiri {
+    height: 88px!important;
+    -webkit-line-clamp: 4!important;
+    color: #555!important;
+    line-height: 22px!important;
+}
+.siriframe {
+    position: relative;
+    height: 140px!important;
+    color: #555!important;
+}
+.text-w {
+    color: #555!important;
+}
+footer {
+    background: #555;
+    padding: 20px 15px;
+    text-align: center;
+    font-size: 15px;
+    color: #555;
+    font-weight:600;
+    line-height: 1.4;
+}
+#panel {
+    padding: 10px;
+    text-align: center;
+    background-color: #555;
+    border-radius: 10px;
+    color: #555;
+    width: 90%;
+    margin: 15px auto;
+    text-align: center;
+}
+.list-block .item-inner:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1
+px
+;
+    width: 100%;
+    background-color: #c8c7cc;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+.layout-dark .item-inner:after, .layout-dark .list-block ul ul li:last-child .item-inner:after {
+    background-color: #ff0707;
+}
+#panel {
+    display: none;
+}
+#panel img {
+    border-radius: 10px;
+}
+.wsiri {
+    width:45px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99999999999999999;
+  top: 0;
+  left: 0;
+  background-color: #1d1d27;
+  overflow-x: hidden;
+  transition: 0.5s;
+  text-align:center;
+}
+.sidenav span {
+    padding:15px;
+    display: block;
+}
+.sidenav a {
+    color:#ecdd0c;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  color: #555;
+  font-size: 45px;
+  margin-left: 50px;
+}
+.nutx {
+    font-size: 45px;
+    display: block;
+    color: #555;
+}
+.canhbao {
+    margin-bottom: 20px; background: linear-gradient(90deg,#da0d22, #ef0d0d) !important;font-size: 16px;font-weight: 700; padding: 15px; text-align: center; border-radius: 15px;letter-spacing: 0.5px;
+}
+.canhbao2 {
+    margin-bottom: 20px; background: linear-gradient(90deg,#38da0d, #06bd25) !important;font-size: 16px;font-weight: 700; padding: 15px; text-align: center; border-radius: 15px;letter-spacing: 0.5px;
+}
+.canhbao a {
+    color:#f2f4f8;
+}
+
+@media screen and (min-width: 800px) {
+body {
+    font-family: -apple-system,SF UI Text,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.4;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+    background: #fff;
+    overflow: hidden;
+}
