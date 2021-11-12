@@ -2,35 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
-		<key>HasRemovalPasscode</key>
-		<true />
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>Cài Đặt Cấu Hình MeoBlack</string>
+		</dict>
 		<key>PayloadContent</key>
-		<array>
-			<dict>
-				<key>FilterType</key>
-				<string>BuiltIn</string>
-				<key>PayloadDisplayName</key>
-				<string>Web Content Filter</string>
-				<key>PayloadIdentifier</key>
-				<string>com.apple.webcontent-filter.4dac1691-1197-429c-a2cb-5360bee37f6a</string>
-				<key>PayloadType</key>
-				<string>com.apple.webcontent-filter</string>
-				<key>PayloadUUID</key>
-				<string>dcc8bc3b-0196-4e4c-8d31-c52ebfde335b</string>
-				<key>PayloadVersion</key>
-				<integer>1</integer>
-				<key>PermittedURLs</key>
-				<array>
-					<string>meoblackk.github.io/repo</string>
-				</array>
-			</dict>
-		</array>
+		<array />
 		<key>PayloadDescription</key>
-		<string>Config web</string>
+		<string>config web clip</string>
 		<key>PayloadDisplayName</key>
 		<string>MeoBlack</string>
 		<key>PayloadIdentifier</key>
-		<string>WIN-P1DLV9H7BIG.f951223c-a803-4b71-98e4-8e7e4f745408</string>
+		<string>com.meoblack.webclip</string>
 		<key>PayloadOrganization</key>
 		<string>MeoBlack</string>
 		<key>PayloadRemovalDisallowed</key>
@@ -38,8 +22,10 @@
 		<key>PayloadType</key>
 		<string>Configuration</string>
 		<key>PayloadUUID</key>
-		<string>e85134fe-964f-405e-93af-37aad7d84371</string>
+		<string>92ce124f-4842-4265-adc0-98f5d6edc6c2</string>
 		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>TargetDeviceType</key>
 		<integer>1</integer>
 	</dict>
 </plist>
